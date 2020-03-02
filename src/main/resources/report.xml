@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="report">
+    <test name="测试">
+        <classes>
+            <class name="com.example.demo.report"/>
+            <methods>
+                <include name="test1"/>
+                <include name="test2"/>
+                <include name="test3"/>
+            </methods>
+        </classes>
+
+    </test>
+
+    <listeners>
+        <listener class-name="com.example.demo.common.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

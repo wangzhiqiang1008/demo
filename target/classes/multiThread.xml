@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="thread"  parallel="method" thread-count="2">
+    <test name="multiThread">
+        <classes>
+            <class name="com.example.demo.multiThreat.multiThread"/>
+        </classes>
+    </test>
+</suite>
+
+<!-- parallel="method"||"tests"||"class"-->
