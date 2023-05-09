@@ -81,7 +81,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.1.0</version>
+			<version>7.5.1</version>
 		</dependency>
 
         <!--下面三个是生成报告用的-->
